@@ -19,7 +19,7 @@ This is a sleek, responsive, and modern **Weather App** built with HTML, CSS, an
 
 ## 🚀 Live Demo
 
-[Click here to view the live app](https://your-username.github.io/weather-app/)
+[Click here to view the live app]( https://dondapati-theerdha-purushotham.github.io/Weather-app/)
 
 ## 🛠️ Tech Stack
 
