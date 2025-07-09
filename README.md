@@ -33,7 +33,7 @@ This is a sleek, responsive, and modern **Weather App** built with HTML, CSS, an
 ### 📦 Installation
 
 1. **Clone this repository:**
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/DONDAPATI-THEERDHA-PURUSHOTHAM/Weather-app.git
    cd weather-app
 Get a free API key from OpenWeatherMap
 
