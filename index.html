@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-container">
+    <section class="hero">
+      <h1>Professional Weather App</h1>
+      <p>Check real-time weather, sunrise & sunset for any city worldwide.</p>
+    </section>
+
+    <section class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <p id="loading" class="info hidden">🔄 Loading...</p>
+    <div id="error" class="alert hidden"></div>
+
+    <section id="weatherDisplay" class="weather-card hidden">
+      <header class="weather-header">
+        <h2 id="cityName"></h2>
+        <img id="weatherIcon" alt="Icon" />
+      </header>
+
+      <div class="weather-main">
+        <div class="temp">
+          <span id="temperature"></span><sup>°C</sup>
+        </div>
+        <p id="weatherDescription"></p>
+      </div>
+
+      <div class="weather-stats">
+        <div><strong>Feels Like:</strong> <span id="feelsLike"></span>°C</div>
+        <div><strong>Humidity:</strong> <span id="humidity"></span>%</div>
+        <div><strong>Wind Speed:</strong> <span id="windSpeed"></span> m/s</div>
+        <div><strong>Sunrise:</strong> <span id="sunrise"></span></div>
+        <div><strong>Sunset:</strong> <span id="sunset"></span></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
